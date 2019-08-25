@@ -20,7 +20,7 @@ body {
 
 #guess_holder, #guesses_remaining, #guessed_letters, #wins,
 h2, h3 {
-    letter-spacing: .3em;
+    letter-spacing: .2em;
     font-family: fantasy;
     font-size: 1.2em;
     text-align: center;
@@ -33,4 +33,7 @@ h2, h3 {
 }
 div .col-12 {
     background-color: floralwhite;
+}
+#guessed_letters, #wins {
+    padding: 20px;
 }
